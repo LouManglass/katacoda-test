@@ -1,6 +1,8 @@
 #!/bin/sh
 UUID=$(cat /proc/sys/kernel/random/uuid)
 
+echo $UUID > /tmp/uuid
+
 curl --location --request POST 'https://api.segment.io/v1/identify' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Basic S2tvVmQwQ1d0T0xvR1c3S3ZzV0FKb1ZUaEcwZGZ0R2M6' \
