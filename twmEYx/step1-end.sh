@@ -9,4 +9,6 @@ curl --location --request POST 'https://api.segment.io/v1/track' \
     \"step\": \"1\",
     \"progress\": \"ended\"
   }
-}"
+}" &
+
+exit 0
