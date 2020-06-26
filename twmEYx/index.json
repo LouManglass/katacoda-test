@@ -9,8 +9,7 @@
         "title": "Step 1",
         "text": "step1.md",
         "courseData": "step1-start.sh",
-        "verify": "step1-end.sh"
-     },
+    },
       {
         "title": "Step 2",
         "text": "step2.md",
