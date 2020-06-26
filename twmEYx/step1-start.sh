@@ -1,5 +1,5 @@
 #!/bin/sh
-UUID=$(uuidgen)
+UUID=$(cat /proc/sys/kernel/random/uuid)
 
 curl --location --request POST 'https://api.segment.io/v1/identify' \
 --header 'Content-Type: application/json' \
