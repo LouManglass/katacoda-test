@@ -9,6 +9,6 @@ curl --location --request POST 'https://api.segment.io/v1/track' \
   \"event\": \"Interactive Demo Event\",
   \"properties\": {
     \"step\": \"2\",
-    \"progress\": \"finished\"
+    \"progress\": \"started\"
   }
 }"
