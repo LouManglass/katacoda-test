@@ -4,6 +4,15 @@
   "difficulty": "Beginner",
   "time": "20 minutes",
   "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "optic.yml",
+          "target": "/tmp/optic.yml",
+          "chmod": "+rwx"
+        }
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
@@ -36,7 +45,23 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe"
+    "uilayout": "terminal-iframe",
+    "terminals": [
+      {
+        "name": "terminal",
+        "command": "cd /app"
+      }
+    ],
+    "dashboards": [
+      {
+        "name": "json-server",
+        "port": 3001
+      },
+      {
+        "name": "Optic Dashboard",
+        "port": 34444
+      }
+    ]
   },
   "backend": {
     "imageid": "javascript",

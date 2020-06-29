@@ -1,0 +1,7 @@
+name: Katacoda-example
+tasks:
+  # The default task, invoke using `api run start`
+  # Learn how to finish setting up Optic at http://docs.useoptic.com/setup
+  start:
+    command: json-server --watch db.json --host 0.0.0.0 --port $OPTIC_API_PORT`{{execute "HOST1"}}
+    baseUrl: http://localhost:3001
