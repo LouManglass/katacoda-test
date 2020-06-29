@@ -34,7 +34,15 @@
       },
       {
         "title": "Step 5",
-        "text": "step5.md"
+        "text": "step5.md",
+        "environment": {
+          "dashboards": [
+            {
+              "name": "test",
+              "port": 3001
+            }
+          ]
+        }
       }
     ],
     "intro": {
@@ -52,8 +60,12 @@
         "port": 3001
       },
       {
-        "name": "Optic Dashboard",
+        "name": "Optic",
         "port": 34444
+      },
+      {
+        "name": "Optic2",
+        "href": "https://[[HOST_SUBDOMAIN]]-34444-[[KATACODA_HOST]].environments.katacoda.com/apis/1/diffs"
       }
     ]
   },
