@@ -1,0 +1,1 @@
+All the pieces are in place: it's time to run `api start run`{{execute "HOST1"}}. Once the application starts, you can use the two browser tabs included to 
