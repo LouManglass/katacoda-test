@@ -34,15 +34,7 @@
       },
       {
         "title": "Step 5",
-        "text": "step5.md",
-        "environment": {
-          "dashboards": [
-            {
-              "name": "test",
-              "port": 3001
-            }
-          ]
-        }
+        "text": "step5.md"
       }
     ],
     "intro": {
@@ -57,14 +49,10 @@
     "dashboards": [
       {
         "name": "json-server",
-        "port": 3001
+        "href": "https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/posts"
       },
       {
-        "name": "Optic",
-        "port": 34444
-      },
-      {
-        "name": "Optic2",
+        "name": "Optic Dashboard",
         "href": "https://[[HOST_SUBDOMAIN]]-34444-[[KATACODA_HOST]].environments.katacoda.com/apis/1/diffs"
       }
     ]
