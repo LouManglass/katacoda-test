@@ -8,7 +8,7 @@
       "host01": [
         {
           "file": "optic.yml",
-          "target": "/tmp/optic.yml",
+          "target": "/tmp/",
           "chmod": "+rwx"
         }
       ]
@@ -45,7 +45,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe",
+    
     "terminals": [
       {
         "name": "terminal",
