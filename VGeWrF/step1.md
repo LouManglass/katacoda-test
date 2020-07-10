@@ -1,3 +1,3 @@
-## Playground
+## Optic Captures
 
-Give the env a shot and see what we can and can't do.
+Let's see what Optic can do! This should be sufficient to fire off a session, though without any captures. Those will have to come later.
