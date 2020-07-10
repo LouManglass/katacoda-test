@@ -39,7 +39,7 @@
     "dashboards": [
       {
         "name": "json-server",
-        "href": "https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/posts"
+        "href": "https://[[HOST_SUBDOMAIN]]-4000-[[KATACODA_HOST]].environments.katacoda.com/posts"
       },
       {
         "name": "Optic Dashboard",
