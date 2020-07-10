@@ -1,6 +1,6 @@
 {
   "title": "Containerised",
-  "description": "",
+  "description": "Test",
   "difficulty": "Beginner",
   "time": "20 minutes",
   "details": {
@@ -33,7 +33,19 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uilayout": "terminal-iframe",
+    "dashboards": [
+      {
+        "name": "json-server",
+        "href": "https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/posts"
+      },
+      {
+        "name": "Optic Dashboard",
+        "href": "https://[[HOST_SUBDOMAIN]]-34444-[[KATACODA_HOST]].environments.katacoda.com/apis/1/diffs"
+      }
+    ]
+  },
   "backend": {
     "imageid": "ubuntu1804"
   }
