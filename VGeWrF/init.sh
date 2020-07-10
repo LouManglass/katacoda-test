@@ -15,4 +15,4 @@ done
 
 curl -XGET http://localhost:4000/posts
 curl -XGET http://localhost:4000/comments
-curl -XGET http://localhost:4000/posts/1
+curl -XGET http://localhost:4000/posts/1s
